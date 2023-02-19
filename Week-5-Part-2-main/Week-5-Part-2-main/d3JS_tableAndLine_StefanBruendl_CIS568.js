@@ -53,9 +53,12 @@ for(i=1; i<table.length; i++) //skips the header
 }
 
 
+//let csvContent = "data:text/csv;charset=utf-8," 
+//    + table.map(e => e.join(",")).join("\n");
 
-p=d3.line(table)
-console.log(p)
+//var encodedUri = encodeURI(csvContent);
+//window.open(encodedUri);
+
 //// https://d3js.org v6.2.0 Copyright 2020 Mike Bostock
 
 
